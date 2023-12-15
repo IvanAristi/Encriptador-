@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Encriptapdr de Texto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+   <div class="container">
+
+     <div class="encritar">
+        <textarea name="texto" id="texto" class="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+     </div>
+
+
+    <div class="terminos">
+        <p>Solo letras minusculas y sin acento</p>
+    </div>
+
+     <div class="botones">
+        <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar!</button>
+         <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desEncriptar()"></input>
+    </div>
+
+   </div>
+   
+   <div class="encriptado">
+    <img src="img/Muñeco.png" alt="" id="muneco">
+    <div class="mensaje-encriptado" id="mensaje-encriptado">
+        <h2 id="titulo-mensaje">Ningun Mensaje Encontrado</h2>
+       <p id="parrafo">Ingresa el texto que desea incritar o desencriptar</p>
+     <!--  <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>-->
+
+    </div>
+   </div>
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
